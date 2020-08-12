@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areej Cafe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+<img class="logo" src="images/cup.jpg">
+<ul class="main-nav animate__animated animate__slideInDown"id="checkclass" >
+<li><a href="#">CAKE DELIVERY</a></li>
+<li><a href="#">HOW TO ORDER</a></li>
+<li><a href="#">CHECK MORE</a></li>
+<li><a href="#">SIGN UP</a></li>
+</ul>
+<a href="#" class="mobileicon"onclick="slideshow()" > <i class="fa fa-bars"></i></a>
+            </div>
+        
+        </nav>
+
+        <section class="main-content-header">
+            <h1>WELCOME TO <span class="textcolorchange">AREEJ CAFE</span>.<br>
+            HOUSE OF CAKE LOVER OO YES.</h1>
+            <a href="#"class="btn btn-full">Click To Order</a>
+            <a href="#"class="btn btn-half">Show Me More</a>
+        </section>
+    </header>
+</body>
+
+<script type="text/javascript">
+function slideshow(){
+    var x = document.getElementById('checkclass');
+    if(x.style.display==="none"){
+        x.style.display="block";
+    }else{
+        x.style.display="none";
+    }
+
+}
+ </script>
+</html>
